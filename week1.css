@@ -1,0 +1,167 @@
+header {
+    background-color: rgb(51, 51, 51);
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-name {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: larger;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  .search-form {
+    display: flex;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 5px;
+  }
+  
+  .search-form button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-form button:hover {
+    background-color: #333;
+  }
+  
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(93, 78, 108);
+  }
+
+  .child{
+    width: 100px;
+    height: 100px;
+    margin: 10px 5px;
+    background-color: bisque;
+  }
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    z-index: 1;
+    transform: scale(1);
+    transition: opacity 5s, transform 10s;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    transform: scale(1.2);
+  }
+  
+  .dropdown-menu li {
+    margin-bottom: 5px;
+  }
+  
+  .dropdown-menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #555;
+  }
+
+  .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product-title {
+    margin-top: 10px;
+  }
+  
+  .product-price {
+    font-weight: bold;
+  }
+  
+  .product-rating {
+    margin-top: 5px;
+  }
+  
+  .product-rating .rating {
+    color: gold;
+  }
+  
+  .add-to-cart,
+  .buy-now {
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-to-cart:hover,
+  .buy-now:hover {
+    background-color: #555;
+  }
+  
+  .productt {
+    position: relative;
+    width: 1300px;
+  }
+  
+  .product-imagee {
+    width: 100%;
+    height: 100%;
+   /* display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;*/
+    transition: transform 0.3s ease;
+    
+  }
+  
+  /*.productt:hover .product-imagee {
+    transform: scale(1.1);
+  }*/
+  
+  
