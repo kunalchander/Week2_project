@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order History</title>
+  <link rel="stylesheet" href="order.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="order.js"></script>
+</head>
+<body>
+  <h1>Order History</h1>
+  
+  <!-- Sorting Dropdown -->
+  <label for="sort">Sort By:</label>
+  <select id="sort">
+    <option value="date">Date</option>
+    <option value="price">Price</option>
+    <!-- Add more options as needed -->
+  </select>
+  
+  <!-- Order History Table -->
+  <table id="order-history">
+    <thead>
+      <tr>
+        <th>Order ID</th>
+        <th>Date</th>
+        <th>Price</th>
+        <!-- Add more columns as needed -->
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Order rows will be dynamically added here -->
+    </tbody>
+  </table>
+</body>
+</html>
+

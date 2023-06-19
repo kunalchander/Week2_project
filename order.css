@@ -1,0 +1,47 @@
+/* Add the following CSS styles to your CSS file or within a <style> tag in your HTML file */
+
+/* Page layout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Sorting dropdown */
+label {
+  font-weight: bold;
+}
+
+select {
+  margin-bottom: 20px;
+}
+
+/* Order history table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+thead th {
+  background-color: #f0f0f0;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+tbody tr:hover {
+  background-color: #e5e5e5;
+}
+
+  
